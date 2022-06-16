@@ -1,6 +1,6 @@
-document.addEventListener("DOMContentLoaded", dogs)
+document.addEventListener("DOMContentLoaded", init)
 
-function dogs(e){
+function init(e){
   const filterDogsButton = document.querySelector("#good-dog-filter")
   filterDogsButton.addEventListener("click", toggleFilterDogs)
   getDogs().then(addAllDogsToDogBar)
